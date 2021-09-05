@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CRUD_CadastroProduto.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="CriarProduto">Cadastrar um produto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vencimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vencimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                <a asp-action="AtualizarProduto" asp-route-id="@item.ProdutoId">Editar</a> |
+                <a asp-action="ExcluirProduto" asp-route-id="@item.ProdutoId">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
