@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- CSS 3 -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+    <!-- Font W3schools-->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+
+    <title>mynerdlifebr</title>
+    <link rel="icon" href="img/keyboard-solid.svg">
+    
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-default navbar-expand-lg fixed-top"><!-- Início área de cabeçalho-->
+      <a class="navbar-brand text-white" style="font-size: 2em; border:none" href="index.html">mynerdlifebr</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+        <i class="fas fa-desktop text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-target">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="artigos.html">Artigos</a>
+        </li>
+        <li>
+          <a class="nav-link" href="cc.html">Ciência da Computação</a>
+        </li>
+        <li>
+          <a class="nav-link" href="hobby.html">Hobby</a>
+        </li>
+        <li>
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>        
+        </ul>
+      </div>
+    </nav><!-- Fim área de cabeçalho -->
+         <div class="container mx-auto titulo"><h1>Programa de Criptografia</h1></div><!-- Barra de título da seção -->
+      <div class="postagens shadow d-flex container"><!-- Início bloco de postagem completa -->
+        <div class=" container row">
+          <div class="container text-monospace col">
+            <h5>Utilizando a tabela ASCII e LISTAS ENCADEADAS, criei um programa de criptografia em c++ para a disciplina de algoritmos e estrutura de dados do terceiro semestre de ciência da computação da faculdade UNIDERP.</h5>
+            <small class="float-md-right"><span class="font-weight-bold">Postado:</span> 30 de Junho de 2020 por <span style="font-style: italic">Marcus Rolim</span></small><br><hr>
+            <p class="text-justify"><span style="padding-left: 30px">Bom</span>, vamos lá!<br><br>
+            <span style="padding-left: 30px">Em</span> algoritmo e estrutura de dados no terceiro semestre de ciência da computação, tive um pequeno trabalho onde eu tinha como objetivo criar um programa de criptografia utilizando algumas regras de criptografia. </p><br>
+            <span style="padding-left: 30px">Utilizando</span> o Criptograma de César, onde a regra sugerida foi, para cada letra digitada, você deverá incrementar as letras, cinco caracteres para frente no caso de números deverão ser decrementados em três dígitos.  </p><br>
+            <span style="padding-left: 30px">O</span> programa terá 4 opções:</p><br>
+            <span style="padding-left: 30px">0</span> - Sair; </p><br>
+            <span style="padding-left: 30px">1</span> - Adiciona a mensagem; </p><br>
+            <span style="padding-left: 30px">2</span> - Exibir a criptografia; </p><br>
+            <span style="padding-left: 30px">3</span> - Exibir a de-criptografia; </p><br>
+            <span style="padding-left: 30px">Começamos</span> criando uma estrutura para guardar a mensagem para criptografar e o ponteiro para indicar a próxima mensagem da lista guardada na urna. </p><br>
+            <span style="padding-left: 30px">O</span> programa foi construído baseado em lista encadeada, utilizando para o menu o switch case, muito if, else, while e para analisar os valores dos caracteres, utilizamos a tabela ascii. </p><br>
+            <span style="padding-left: 30px">Então</span> caso você tenha o entendimento mínimo desses conteúdos de c++, estamos utilizando o DEV-C++ como compilador, assim vamos à prática, explicarei os passos que tomei para a construção do código. </p><br>
+            <span style="padding-left: 30px">Começando</span> o código.</p><br>
+            <div class="row container text-center mb-4">
+              <div class="col-lg-4 align-self-center">
+                <img class="d-flex mx-auto mb-4" src="img/criptografia-1.jpg">
+              </div> 
+              <div class="col-lg-8 align-self-center text-justify">
+              <span style="padding-left: 30px">Iniciamos</span> a linha 1 e 2 com o cabeçalho padrão do c++, onde as bibliotecas inseridas stdio.h que permite a entrada e saída de informação como utilizamos no “printf” e no “scanf” e a stdlib.h que é a biblioteca que tem sua funcionalidade na manipulação de memória, que é a parte onde utilizamos as listas encadeadas, usando “malloc”, “free”. </p>
+            </div>
+          </div>
+            <div class="row container text-center mb-4">
+              <div class="col-lg-5 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-2.jpg">
+              </div> 
+              <div class="col-lg-7  align-self-center text-justify">
+              <span style="padding-left: 30px">Das</span> linhas 8 a 13 criamos a estrutura que será responsável por guardar a mensagem e a indicação do endereço da próxima mensagem que foi inserida em seguida, e por fim renomeamos para “node” nesse caso. </p>
+            </div>
+          </div>
+            <div class="row container text-center mb-4">
+              <div class="col-lg-6 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-3.jpg">
+              </div> 
+              <div class="col-lg-6  align-self-center text-justify">
+              <span style="padding-left: 30px">As</span> linhas 15 a 20 são as funções externas que executamos para retornar as informações já calculadas para o corpo do código, o “main”, apenas para deixar o código mais fácil de trabalhar, fazendo o corpo do código como uma prateleira, e as funções externas os livros que a compõe com seus conteúdos.</p>
+            </div>
+          </div>                        
+            <div class="row container text-center mb-4">
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-4.jpg">
+              </div> 
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-5.jpg">
+              </div>               
+              <div class="col-lg-12  align-self-center text-justify">
+              <span style="padding-left: 30px">As</span> linhas 22 a 43 é o corpo do código onde executamos as funções externas. Primeiro passo que tomamos é executar a estrutura que criamos para guardar a mensagem, reservando assim o espaço na memória para a mensagem, em seguida executamos uma condição onde caso não exista o espaço para a reserva o programa irá imprimir na tela a notificação de falta de memória, caso exista o espaço o programa já inicia a lista e em seguida executa o menu que criaremos para o usuário decidir qual opção deseja executar.</p>
+            </div>
+          </div>     
+            <div class="row container text-center mb-4">
+              <div class="col-lg-6 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-6.jpg">
+              </div> 
+              <div class="col-lg-6  align-self-center text-justify">
+              <span style="padding-left: 30px">Da</span> 44 a 47, é a função externa que inicia a lista, basicamente ela direciona o seu ponteiro para o nulo, NULL, indicando que será a primeira mensagem a ser registrada.</p>
+            </div>  
+            </div>      
+            <div class="row container text-center mb-4">
+              <div class="col-lg-6 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-7.jpg">
+              </div> 
+              <div class="col-lg-6  align-self-center text-justify">
+              <span style="padding-left: 30px">Da</span> 48 a 59, criamos a função do menu, onde imprimimos quais as opções e seus respectivos números, a informação recebida é retornada com a variável inteira “opt”. </p>
+            </div>  
+            </div> 
+            <div class="row container text-center mb-4">
+              <div class="col-lg-6 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-8.jpg">
+              </div> 
+              <div class="col-lg-6  align-self-center text-justify">
+              <p><span style="padding-left: 30px">Assim</span> nas linhas 60 a 84, utilizamos o switch case, que nada mais é do que uma lista de opções a serem executadas de acordo com a informação recebida, em nosso caso, a variável recebida é a inteira “opt” do passo anterior do menu, juntamente com a estrutura urna que criamos para guardar a informação.</p>
+            <p><span style="padding-left: 30px">De</span> acordo com a opção escolhida é executada uma das funções externas através dos cases, caso não seja inserida uma opção válida o programa imprime na tela o aviso de comando inválido, através do case “default”.</p>   </div>  
+            <div class="col-lg-6 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-9.jpg">
+              </div>                           
+            </div>     
+            <div class="row container text-center mb-4">
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-10.jpg">
+              </div> 
+              <div class="col-lg-12  align-self-center text-justify">
+              <p><span style="padding-left: 30px">Indo </span>para a linha 85 a 113, temos a opção de inserir a mensagem para ser criptografada, onde o primeiro passo é reservar um novo espaço de memória através do comando “malloc”, em seguida executamos a condição de que se não houver memória suficiente para reservar uma nova mensagem, o programa imprime na tela o aviso de memória insuficiente.</p>
+              <p><span style="padding-left: 30px">Caso</span> haja espaço, o programa imprime na tela o que o usuário deve fazer, a mensagem inserida deve ser registrada em forma de string por ser de até 30 caracteres, portanto utilizamos o “%s”, onde será reservado dentro da nossa estrutura novaurna->mensagem.</p>     
+              <p><span style="padding-left: 30px">Como</span> estamos criando um novo item na lista encadeada ele será inserido no final da lista, portanto todo item final, seu ponteiro onde mostra o próximo item deve ser nulo, NULL.</p>    
+              <p><span style="padding-left: 30px">Como</span> não seja o primeiro da lista, criamos uma variável temporária onde atribuímos o indicador do próximo item da lista e assim abrimos um while, onde ele ficará atribuindo os valores dos próximos itens até achar um próximo com valor nulo, que será o ultimo item da lista. Para compreender mais facilmente, imagine que esteja com olhos vendados no topo de uma escadaria, você é a variável temporária, vai pisar em um degrau, assim você saberá que esta no primeiro degrau, não sendo o chão, então descerá mais um degrau, caso não seja o chão você saberá que se tornou o segundo degrau e sucessivamente até achar o chão que no nosso caso seria o próximo nulo, no caso degrau inexistente.</p>
+              <p><span style="padding-left: 30px">Caso</span> não seja o primeiro da lista, criamos uma variável temporária onde atribuímos o indicador do próximo item da lista e assim abrimos um while, onde ele ficará atribuindo os valores dos próximos itens até achar um próximo com valor nulo, que será o ultimo item da lista. Para compreender mais facilmente, imagine que esteja com olhos vendados no topo de uma escadaria, você é a variável temporária, vai pisar em um degrau, assim você saberá que esta no primeiro degrau, não sendo o chão, então descerá mais um degrau, caso não seja o chão você saberá que se tornou o segundo degrau e sucessivamente até achar o chão que no nosso caso seria o próximo nulo, no caso degrau inexistente.</p> 
+              <p><span style="padding-left: 30px">Quando</span> nosso while descobrir o último item, atribuímos em seu ponteiro o endereço de nossa nova urna, no caso nossa mensagem com o ponteiro indicando para o nulo, pois se tornou o ultimo item da lista.</p><br>                                                
+            </div>  
+              <div class="row container text-center mb-4">
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-11.jpg">
+              </div> 
+              <div class="col-lg-12  align-self-center text-justify">
+              <p><span style="padding-left: 30px">Da</span> linha 114 até a 171, temos a criptografia em si, começamos o primeiro passo criando uma variável inteira “i”, para utilizarmos como uma variável temporária durante nossa criptografia.</p>
+              <p><span style="padding-left: 30px">Então</span> começamos com a condicional, caso nosso primeiro item da lista tenha seu ponteiro indicando o nulo, NULL, quer dizer que a lista está vazia, fazendo com que o programa imprima na tela a mensagem informativa de que não existem mensagens na lista.</p>              
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="m-4 d-flex mx-auto" src="img/criptografia-12.jpg">
+              </div> 
+              <p><span style="padding-left: 30px">Caso</span> o ponteiro não indique nulo, NULL, utilizamos aquele mesmo procedimento da variável temporária, aquela história das escadas, atribui o ponteiro do primeiro item e com o while, ficará executando as funções até o ponteiro ser nulo, que será o fim da lista.</p>  
+
+              <p><span style="padding-left: 30px">E</span> assim iremos começar a criptografia, a mensagem deve ter até 30 caracteres, caso tenha mais, o programa imprime na tela a mensagem dizendo que está muito grande, caso contrário iniciamos um outro while, onde ele terá a função de imprimir na tela cada caractere da mensagem criptografado.</p><p><span style="padding-left: 30px">Na</span> linha 134, criamos o while onde o primeiro caractere não deve ser nulo para iniciar as execuções.</p>
+              <span style="padding-left: 30px">Agora</span> utilizando a tabela ASCII, vamos fazer as criptografias, como no inicio do exercício as regras são:</p>              
+              <span style="padding-left: 30px">Caso</span> seja letra, adicione 5 caracteres à frente;</p>                 
+              <span style="padding-left: 30px">Caso</span> seja números, volte 3 caracteres à traz.</p>                 
+              <span style="padding-left: 30px">Entendendo</span> isso nossa linha 136, se cria a condição de que caso o caractere esteja entre o intervalo de 97 até o 117, que são a sequencia de letras minúsculas, “a” até “u”.</p>                 
+              <span style="padding-left: 30px">Por</span> que até “u” apenas, pelo motivo de que a próxima letra caso seja inserida mais 5 caracteres ela passa do “z” pela tabela ascii, portanto nessa condição de adicionar mais cinco caracteres, deve ser feito de “a” até “u”.</p>                 
+              <span style="padding-left: 30px">Então</span> caso o primeiro caractere da mensagem seja uma letra minúscula entre “a” e “u”, ou pela tabela ascii do 97 ao 117, ele irá imprimir o caractere da mensagem, nesse caso utilizaremos o “%c”, pois não queremos a mensagem completa como string, então o caractere “i” , que atribuímos na linha 117 o valor inteiro de 0, será adicionado +5, fazendo assim uma letra “a” = 97 , se tornando uma letra “f” = 102, em seguida incrementamos +1 para nossa variável temporária “i”, que passará do valor 0 para o valor 1, isto é ele verificará o segundo caractere.</p>                 
+              <span style="padding-left: 30px">Já</span> na linha 141, é o caso das letras minúsculas acima da letra “u”, no caso o intervalo de 118 a 122, o que mudará na lógica da execução é somar os cinco caracteres, porem vai passar do “z”, e passando do “z” ele deveria reiniciar no “a”, portanto o que fazemos é, somar os 5 e subtraímos 26, que são todas as letras voltando para o início, assim ficando a proporcionalidade de quantos caracteres passarem do “z” ele somará no início. Exemplificando caso o caractere seja “x”, que tem valor na tabela ascii de 120, somando +5 ele iria para o caractere 125, que seria 3 caracteres a mais que o “z” que é o 122, portanto subtrairemos 26, para voltar para o início, então 125-26 = 99, que seria o “c”, provando assim que seria 3 caracteres a frente do “z”, z->a->b->c.</p>
+              <span style="padding-left: 30px">E</span> por fim, incrementa +1 na variável “i”, para ir para o próximo caractere da mensagem.</p>                 
+              <span style="padding-left: 30px">Já</span> nas linhas do intervalo 146 até a 155, é o mesmo procedimento porem com letras maiúsculas.</p>                 
+              <span style="padding-left: 30px">E</span> nas linhas 156 até 165 são os números, portanto o procedimento é o mesmo, porem a lógica é subtrair 3, então caso o numero digitado seja do 0 ao 2, ele deverá subtrair 3 e somar 10, que é o fim da lista, pois quando se passa do 0, deve voltar pro fim da lista de números que ao todo são 10.</p>
+              <span style="padding-left: 30px">Exemplificando</span> seria caso digite o 1, que tem o valor na tabela ascii de 49, ele deve ser -3 caracteres, que seria 46, passando 2 caracteres do 0, então somando +10, iria para o 56, que é o valor 8, que no caso são 2 caracteres atrás do último que é o 9, ficando assim, 1->0->9->8.</p>                
+              <span style="padding-left: 30px">E</span> por fim somando 1, na variável “i”, para passar para o próximo caractere da mensagem.</p>                 
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="m-4 d-flex mx-auto" src="img/criptografia-13.jpg">
+              </div>  
+              <span style="padding-left: 30px">Da</span> linha 161 a 165, é a parte dos números do intervalo de 51 a 57 na tabela ascii, no caso do 3 ao 9, onde basicamente subtrai 3 caracteres. E finalizando adicionando +1 na variável ‘i”, para ir para o próximo caractere da mensagem.</p>
+              <span style="padding-left: 30px">Após</span> andar por todos os caracteres da mensagem, chegara ao “i” igual a nulo, NULL, finalizando o while. E atribuindo o valor da variável para seu próximo e finalizando a execução da função.</p>
+            </div>  
+            </div> 
+            </div>      
+            <div class="row container text-center mb-4">
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-14.jpg">
+              </div> 
+              <div class="col-lg-12 align-self-center">
+                <img style="margin:0;padding: 0" class="mb-4" src="img/criptografia-15.jpg">
+              </div>               
+              <div class="col-lg-12  align-self-center text-justify">
+              <p><span style="padding-left: 30px">E</span> a linha 172 até a 229, é a opção de de-criptografar, que são os mesmos passos da criptografia, porém não soma nem subtrai nada, apenas imprime o caractere digitado.</p>
+              <p><span style="padding-left: 30px">Assim</span> finalizamos o programa de criptografia simples utilizando lista encadeada e a tabela ascii. </p>
+              <p><span style="padding-left: 30px">Caso</span>queira executar o programa, abrir o código direto, disponibilizei no meu github, basta clicar no icone abaixo.</a> </p>
+              <div class="d-flex">
+              <a style="border:none; background: transparent;" class="d-flex mx-auto" href="https://github.com/marcusrolimcc/criptogramadecesar"><img   src="img/logo-github.png">
+              </div>         
+            </div>
+          </div>   
+          <a style="margin-bottom: 15px" class="postagens p-1" href="cc.html">Voltar</a>  
+</div>
+</div>  
+</div>          
+
+    
+    <footer class="d-block text-center"><!-- Início da área de rodapé -->
+      <div >
+        <p>&copy; 2020 - Desenvolvido por Marcus Rolim</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.instagram.com/marcusrolim82"/><img src="img/logo-instagram.png"></a>
+        <a href="https://www.facebook.com/marcusrolim82"><img src="img/logo-facebook.png"></a>
+        <a href="https://twitter.com/marcusrolim82"><img src="img/logo-twitter.png"></a>
+        <a href="https://www.linkedin.com/in/marcus-rolim-8455a7165/"><img src="img/logo-linkedin.png"></a>
+      </div>
+    </footer><!-- Fim da área de rodapé -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

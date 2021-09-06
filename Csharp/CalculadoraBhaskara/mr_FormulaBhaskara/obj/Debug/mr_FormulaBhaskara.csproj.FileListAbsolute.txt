@@ -1,0 +1,10 @@
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\bin\Debug\mr_FormulaBhaskara.exe.config
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\bin\Debug\mr_FormulaBhaskara.exe
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\bin\Debug\mr_FormulaBhaskara.pdb
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.csproj.AssemblyReference.cache
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.Properties.Resources.resources
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.csproj.GenerateResource.cache
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.csproj.CoreCompileInputs.cache
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.exe
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.pdb
+E:\CSharp\mr_FormulaBhaskara\mr_FormulaBhaskara\obj\Debug\mr_FormulaBhaskara.Bhaskara.resources

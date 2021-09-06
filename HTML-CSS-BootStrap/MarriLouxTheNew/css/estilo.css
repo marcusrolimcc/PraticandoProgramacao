@@ -1,0 +1,369 @@
+html, body
+{
+	overflow-x: hidden;
+	height: 100%;
+}
+body
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+nav
+{
+	background: rgb(182, 11, 182, 0.2);
+	font-size: 1.5em;
+}
+.voltar a
+{
+	color:#b60bb6;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid #b60bb6;
+	
+}
+.voltar a:hover
+{
+	color:#b60bb6;
+	padding: 10px;
+	background: rgb(182, 11, 182, 0.3);
+	border-radius: 10px;
+	text-decoration: none;
+}	
+}
+.navbar li
+{
+	padding-right: 50px;
+}
+.navbar ul li a
+{
+	color: #ffff;
+	border: none;
+}
+.navbar ul li a:hover
+{
+	padding: 10px;
+	background: rgb(182, 11, 182, 0.3);
+	border-radius: 10px;
+}
+.menulateral
+{
+	padding-left: 5px;
+	background: #8f0862;
+	text-align: center;
+	align-self: center;
+}
+.menulateral li
+{
+	padding-right: 0px;
+	margin: 0px;
+}
+.menulateral ul li a
+{
+	color: #ffff;
+}
+.menulateral ul li a:hover
+{
+	padding: 10px;
+	background: #b60bb6;
+	border-radius: 10px;
+}
+.menumassagem a:hover
+{
+	color: white;
+	background: #b60bb6;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.menumassagem a
+{
+	color: white;
+	text-decoration: none;
+}
+.menumassagem
+{
+	font-size: 4em;
+	text-align: center;
+	background: #8f0862;
+	margin: auto;
+	padding: 0;
+	height: 100px;
+	text-decoration: none;
+}
+.marcador
+{
+	border: 1px solid red;
+}
+.imgfundo
+{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.tituloayurveda
+{
+	width: 3000px;
+	height: 500px;
+	background: url(../img/titulo-ayurveda.jpg) no-repeat center;
+	margin:0px;
+	padding: 0px;
+}
+.tituloayurveda h1
+{
+	font-size: 5em;
+	align-self: center;
+	margin: auto;
+}
+.titulomassagem
+{
+	width: 3000px;
+	height: 500px;
+	background: url(../img/titulo-massagem.jpg) no-repeat center;
+	margin:0px;
+	padding: 0px;
+}
+.titulomassagem h1
+{
+	font-size: 5em;
+	align-self: center;
+	margin: auto;
+}
+.titulomeditacao
+{
+	width: 3000px;
+	height: 500px;
+	background: url(../img/titulo-meditacao.jpg) no-repeat center;
+	margin:0px;
+	padding: 0px;
+}
+.titulomeditacao h1
+{
+	font-size: 5em;
+	align-self: center;
+	margin: auto;
+}
+.titulomanteiga
+{
+	width: 3000px;
+	height: 500px;
+	background: url(../img/titulo-manteiga.jpg) no-repeat center;
+	margin:0px;
+	padding: 0px;
+}
+.titulomanteiga h1
+{
+	font-size: 5em;
+	align-self: center;
+	margin: auto;
+}
+h1
+{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 10px #b60bb6;
+	align-self: top;
+}
+h2
+{
+	color: #ffff ;
+	text-align: center;
+	align-self: center;
+	text-shadow: 2px 2px 10px #b60bb6;
+	padding-bottom: 20px;
+}
+h3
+{
+	color:#b60bb6 ;
+	text-align: center;
+	align-self: center;
+}
+.texto
+{
+	font-size: 1.2em;
+	color:#b60bb6;
+	padding: 15px;
+	align-self: center;
+	text-align: justify;
+}
+.texto2
+{
+	font-size: 1.2em;
+	color:#b60bb6;
+	padding: 15px;
+	align-self: center;
+	text-align: justify;
+}
+.box
+{
+	box-shadow: 10px 10px 5px grey;
+	border: 1px solid grey;
+	color:#b60bb6;
+}
+.textoslide
+{
+	
+	background: white;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+.carousel .ayurveda h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #8d5410;
+}
+.carousel .ayurveda p
+{
+	color: #8d5410;
+}
+.carousel .massagem h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #706e6b;
+}
+.carousel .massagem p
+{
+	color: #706e6b;
+}
+.carousel .meditacao h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #226107;
+}
+.carousel .meditacao p
+{
+	color: #226107;
+}
+.carousel .numerologia h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #5a0c70;
+}
+.carousel .numerologia p
+{
+	color: #5a0c70;
+}
+.carousel .fengshui h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #842d07;
+}
+.carousel .fengshui p
+{
+	color: #842d07;
+}
+.carousel .oleos h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #1bdebc;
+}
+.carousel .oleos p
+{
+	color: #1bdebc;
+}
+.carousel .manteiga h1
+{
+	color: white;
+	text-shadow: 2px 2px 10px #001cf1;
+}
+.carousel .manteiga p
+{
+	color: #001cf1;
+}
+
+.fundo40
+{
+	color:white;
+}
+.fundo40 a:hover
+{
+	background: white;
+	opacity: 0.4;
+}
+footer
+{
+	color: #b60bb6;
+	background: rgb(182, 11, 182, 0.2);
+	font-size: 0.8em;
+}
+
+/*/ QUERIES */
+/*/ Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)
+{
+.tituloayurveda, .titulomassagem, .titulomeditacao, .titulomanteiga
+{
+	width: 100%;
+}
+}
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+.tituloayurveda, .titulomassagem, .titulomeditacao, .titulomanteiga
+{
+	width: 100%;
+}
+}
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+.tituloayurveda, .titulomassagem, .titulomeditacao, .titulomanteiga
+{
+	width: 100%;
+}
+.imgx
+{
+	width: 500px;
+}
+}
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) 
+{
+.tituloayurveda, .titulomassagem, .titulomeditacao, .titulomanteiga
+{
+	width: 100%;
+}
+	h1
+	{
+		font-size: 2em;
+	}
+	h2
+	{
+		font-size: 2em;
+	}
+	.texto
+	{
+		font-size: 2em;
+	}
+.imgx
+{
+	width: 500px;
+}
+}
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{
+
+	h1
+	{
+		font-size: 3em;
+	}
+	h2
+	{
+		font-size: 3em;
+	}
+	h3
+	{
+		font-size: 3em;
+	}	
+	.texto
+	{
+		font-size: 3em;
+		text-align: center;
+	}
+.imgx
+{
+	width: 500px;
+}
+}

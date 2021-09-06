@@ -1,0 +1,10 @@
+E:\CSharp\calculadoraSimples\bin\Debug\calculadoraSimples.exe.config
+E:\CSharp\calculadoraSimples\bin\Debug\calculadoraSimples.exe
+E:\CSharp\calculadoraSimples\bin\Debug\calculadoraSimples.pdb
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.csproj.AssemblyReference.cache
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.Form1.resources
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.Properties.Resources.resources
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.csproj.GenerateResource.cache
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.csproj.CoreCompileInputs.cache
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.exe
+E:\CSharp\calculadoraSimples\obj\Debug\calculadoraSimples.pdb
